@@ -6,5 +6,12 @@ nav {
   background-color:light-blue;
 }
 header{
-  background-color:light-red;
+  background-color: cornsilk;
+}
+main {
+  background-color: crimson;
+  font-size: medium;
+}
+footer {
+  background-color: cornsilk;
 }
