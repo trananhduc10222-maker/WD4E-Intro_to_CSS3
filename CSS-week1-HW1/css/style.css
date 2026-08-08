@@ -23,7 +23,7 @@ li {
     width: 100px;
 }
 h1 {
-    text-align: center;
+    text-align: inline;
     font-family: sans-serif;
     color: blue;
 }
