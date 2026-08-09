@@ -6,7 +6,9 @@ body{
   font-size: 120%;
 }
 nav {
-  background-color:light-blue;
+  width: 80%;
+  background-color:lightblue;
+ 
 }
 header{
   background-color: cornsilk;
@@ -19,14 +21,37 @@ footer {
   background-color: cornsilk;
 }
 li {
-    display: block;
-    width: 100px;
+    /* display: block;
+    width: 100px; */
+    
+
 }
 h1 {
-    text-align: inline;
+    text-align: center;
     font-family: sans-serif;
     color: blue;
 }
 p {
-    line-height: 10px;
+    line-height: 25px;
 }
+nav img{
+  width: 10%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+}
+.grid img{
+  width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
